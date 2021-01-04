@@ -1,0 +1,81 @@
+body{
+     font-family: 'Segoe UI', sans-serif;
+     margin: 0;
+     
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+    max-width: 24rem;
+    margin: 2.5rem auto ;
+    
+}
+
+.card-heading{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0.3rem;
+}
+.card-heading img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.card-heading-data{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 0 1rem;
+}
+
+.user-name{
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.location{
+    font-size: .75rem;
+    line-height: 1rem;
+
+    color: #52525B;
+}
+
+img{
+    max-width: 24rem;
+    max-height: 24rem;
+    margin-top: 0.2rem;
+    object-fit: contain;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .6rem;
+    margin-bottom: .2rem;
+    
+    
+    align-items: center;
+}
+
+.card-footer-left  svg{
+    margin-left: 0.5rem;
+}
+
+
+.card-likes{
+    margin-bottom: 0.5rem;
+    margin-left: 0.6rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
